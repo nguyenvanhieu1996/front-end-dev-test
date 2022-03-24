@@ -22,6 +22,8 @@ const Section1 = () => {
         duration: 3,
         y: heightSection1 + heightSection2 - 40,
         ease: 'linear',
+        rotate: 360,
+        // rotation: 180,
       });
 
       ScrollTrigger.create({

@@ -5,9 +5,7 @@
 
 .navbar {
   background-color: #FAFAFA;
-  position: fixed;
-  width: 100%;
-  z-index: 99;
+  position: static;
 }
 
 .menu.navbar-nav {
@@ -75,6 +73,13 @@ button:focus:not(:focus-visible) {
   .menu.navbar-nav .menu__search {
     padding-left: 33px;
     cursor: pointer;
+  }
+
+  .navbar {
+    background-color: #FAFAFA;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
   }
 
   .menu.navbar-nav .nav-item {
