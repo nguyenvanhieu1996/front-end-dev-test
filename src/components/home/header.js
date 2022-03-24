@@ -10,8 +10,10 @@ const Header = () => {
   return (
     <Navbar collapseOnSelect expand="lg">
       <Container className="header-container">
-        <Navbar.Brand href="#home">
-          <Image src="./images/logo.svg" />
+        <Navbar.Brand>
+            <Link to="/" className="menu__item">
+              <Image src="./images/logo.svg" />
+            </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav">
           <Image src="./images/drop.svg" />
