@@ -1,0 +1,120 @@
+.section2 {
+  background-color: #00A4B8;
+  position: relative;
+  z-index: 9;
+}
+
+.section2 .section2__container {
+  display: flex;
+  padding-top: 186px;
+}
+
+.section2 .section2__container .right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12%;
+}
+
+.section2 .section2__container .right .title {
+  color: #FAFAFA;
+  font-weight: 400;
+  font-size: 73px;
+  line-height: 82px;
+  letter-spacing: -0.03em;
+  margin-bottom: 0;
+
+}
+
+.section2 .section2__container .right .title-small {
+  color: #FAFAFA;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+
+
+.section2 .section2__container .right .note { 
+  color: #FAFAFA;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.025em;
+  margin-bottom: 0;
+}
+
+.section2 .section2__container .right .learn-more { 
+  color: #FAFAFA;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.025em;
+  margin-top: 48px;
+  cursor: pointer;
+}
+
+.section2 .section2__container .right .line { 
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.025em;
+  border-left: 0.5px solid #FAFAFA;
+  margin-top: 104px;
+  padding-left: 32px;
+  padding-bottom: 100px;
+
+}
+
+.section2 .section2__container .right .learn-more img { 
+  margin-left: 5px;
+}
+.section2 .section2__container .left {
+  max-height: 950px;
+}
+
+@media (max-width: 1024px) {
+  .section2 .section2__container {
+    flex-direction: column;
+    padding-top: 64px;
+  }
+  
+  .section2 .section2__container .right .title-small {
+    padding-top: 64px;
+  }
+
+  .section2 .section2__container .right {
+    margin-left: 0;
+  }
+
+  .section2 .section2__container .right .title {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .section2 .section2__container .right .line {
+    margin-top: 48px;
+    border: 0;
+    padding-left: 0;
+    height: unset;
+  }
+
+  .section2 .section2__container .right .learn-more { 
+    margin-bottom: 0;
+  }
+
+  .section2 .container {
+    padding: 0 24px !important;
+  }
+
+  .section2 .section2__container .left img {
+    max-width: 100%;
+  }
+
+  .section2 .section2__container .left {
+    margin-top: 64px;
+  }
+
+}
+

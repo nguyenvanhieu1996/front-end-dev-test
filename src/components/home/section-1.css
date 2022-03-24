@@ -1,0 +1,117 @@
+.section1 {
+  display: flex;
+  align-items: center;
+  max-height: 950px;
+}
+.section1 .section1__right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16%;
+  margin-top: 10%;
+}
+
+.section1 .section1__right .title {
+  color: #1A1A1A;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 64px;
+  letter-spacing: -0.03em;
+  margin-bottom: 0;
+}
+
+.section1 .section1__right .title-bold {
+  color: #1A1A1A;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 64px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  letter-spacing: -0.03em;
+  margin-bottom: 0;
+}
+
+.section1 .section1__right .note { 
+  color: #474747;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+}
+
+.section1 .section1__right .learn-more { 
+  color: #00A4B8;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.section1 .section1__right .line { 
+  border-left: 0.5px solid #8a8a8a;
+  height: 17vw;
+  margin-top: 64px;
+  padding-left: 32px;
+}
+
+.section1 .section1__right .learn-more img { 
+  margin-left: 5px;
+}
+.section1 .section1__left {
+  max-height: 800px;
+}
+
+.section1 .section1__left img {
+  max-width: 100%;
+  max-height: 950px;
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .section1 .section1__right {
+    margin-left: 12%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section1 {
+    flex-direction: column;
+    align-items: flex-start;
+    max-height: unset;
+  }
+    
+  .section1 .section1__left {
+    max-width: 315px;
+  }
+
+  .section1 .section1__right .title {
+    font-size: 29px;
+    line-height: 36px;
+    margin-bottom: 8px;
+  }
+
+  .section1 .section1__right .title-bold {
+    font-size: 29px;
+    font-weight: 400;
+    text-shadow: unset;
+    line-height: 36px;
+  }
+
+  .section1 .section1__right {
+    margin: -60px 24px 0 24px;
+  }
+
+  .section1 .section1__right .line { 
+    border-left: 0;
+    height: unset;
+    margin-top: 32px;
+    padding: 0;
+  }
+
+  .section1 .section1__right .line .note { 
+    color: #474747;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .section1 .section1__right .learn-more { 
+    margin-bottom: 32px;
+  }
+}

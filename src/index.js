@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {ScrollTrigger} from 'gsap/dist/ScrollTrigger';
+import {gsap} from 'gsap/dist/gsap';
+import 'gsap/CSSPlugin';
+gsap.registerPlugin(ScrollTrigger);
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

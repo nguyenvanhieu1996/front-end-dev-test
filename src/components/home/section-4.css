@@ -1,0 +1,113 @@
+.section4 {
+  background: #DFF8F8;
+}
+
+.section4 .section4__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 48px;
+  position: relative;
+}
+
+
+.section4 .section4__container .left .wrapper-text {
+  position: absolute;
+  top: 24%;
+  left: 7.5%;
+}
+
+.section4 .section4__container .left .text-1 {
+  font-weight: 400;
+  font-size: 73px;
+  line-height: 82px;
+  letter-spacing: -0.03em;
+  color: #1A1A1A;
+}
+
+.section4 .section4__container .left .text-2 {
+  font-weight: 400;
+  font-size: 73px;
+  line-height: 82px;
+  letter-spacing: -0.03em;
+  color: #00A4B8;
+}
+
+.section4 .section4__container .right .table-detail .item {
+  border-bottom: 0.5px solid #8A8A8A;
+  margin-bottom: 0;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.section4 .section4__container .right .table-detail .item .name {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  letter-spacing: -0.025em;
+  color: #1A1A1A;
+}
+
+.section4 .section4__container .right .table-detail .item .value {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #8A8A8A;
+}
+
+.section4 .section4__container .right {
+  margin-top: 18%;
+  margin-right: 18%;
+}
+
+@media (max-width: 1024px) {
+  .section4 .section4__container {
+    padding: 0 24px;
+  }
+  .section4 .section4__container .left .wrapper-text {
+    position: absolute;
+    top: 0;
+    margin-top: 80px;
+    left: 24px;
+  }
+
+  .section4 .section4__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section4 .section4__container .left {
+    order: 2;
+  }
+
+  .section4 .section4__container .right {
+    margin-top: 64px;
+    margin-right: 0;
+  }
+  .section4 .section4__container .left .text-1,
+  .section4 .section4__container .left .text-2 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .section4 .section4__container .left img {
+    height: 265px;
+    margin-left: -36px;
+    margin-top: -66px;
+  }
+
+  .section4 .section4__container .right .table-detail {
+    margin-top: 164px;
+  }
+
+  .section4 .section4__container .right .table-detail .item .name {
+    font-size: 22px;
+  }
+
+  .section4 .section4__container .right .table-detail .item img {
+    display: none;
+  }
+}
