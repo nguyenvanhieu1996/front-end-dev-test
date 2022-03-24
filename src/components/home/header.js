@@ -48,13 +48,13 @@ const Header = () => {
             </Nav.Item>
 
             <Nav.Item>
-              <Link to="/strategies" className="menu__item">
+              <Link to="/funds" className="menu__item">
                 Funds
               </Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Link to="/strategies" className="menu__item">
+              <Link to="/how-to-invest" className="menu__item">
                 How to Invest
               </Link>
             </Nav.Item>
