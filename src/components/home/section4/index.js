@@ -1,6 +1,6 @@
 import React from 'react';
 import {Image} from 'react-bootstrap';
-import './section-4.css';
+import './styles.css';
 
 const Section4 = () => {
   return (

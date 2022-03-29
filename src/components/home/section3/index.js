@@ -1,6 +1,6 @@
 import React, {useCallback, useState} from 'react';
 import {Image, Container} from 'react-bootstrap';
-import './section-3.css';
+import './styles.css';
 import useDevice from './platform';
 
 const Section3 = () => {

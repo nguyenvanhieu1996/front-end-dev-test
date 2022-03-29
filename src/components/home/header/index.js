@@ -1,8 +1,8 @@
 import React from 'react';
 import {Nav, Navbar, Image, Container, NavDropdown} from 'react-bootstrap';
 import {Routes, Route, Link} from 'react-router-dom';
-import useDevice from './platform';
-import './header.css';
+import useDevice from '../common/platform';
+import './styles.css';
 
 const Header = () => {
   const {isMobile} = useDevice();

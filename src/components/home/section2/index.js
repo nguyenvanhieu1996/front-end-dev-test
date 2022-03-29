@@ -3,7 +3,7 @@ import {Image, Container} from 'react-bootstrap';
 import {gsap} from 'gsap/dist/gsap';
 import {ScrollTrigger} from 'gsap/dist/ScrollTrigger';
 import useDevice from './platform';
-import './section-2.css';
+import './styles.css';
 
 const Section2 = () => {
   const {isMobile} = useDevice();
